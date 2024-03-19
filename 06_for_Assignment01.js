@@ -2,7 +2,7 @@
 
 
 
-/* Task 1: Print numbers from 5 to 15 by incrementing 1
+// Task 1: Print numbers from 5 to 15 by incrementing 1
 console.log("Task 1: Print numbers from 5 to 15 by incrementing 1");
 for (let i = 5; i <= 15; i++) {
     console.log(i);
@@ -39,7 +39,7 @@ console.log("\nTask 6: Print table of 10");
 for (let i = 1; i <= 10; i++) {
     console.log(i * 10);
 }
-*/
+
 // Task 7: Print table of 10 in reverse order
 console.log("\nTask 7: Print table of 10 in reverse order");
 for (let i = 10; i >= 1; i--) {
