@@ -18,3 +18,20 @@ for (let index = 0; index < word.length; index++) {
     }
 }
 console.log(`char a count is: ${count}`);
+
+
+// var reversed = "tejaswini";
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         reversed += str[i];
+//     }
+//     console.log(reversed);
+    var str="tejaswini";
+    for (let i = str.length-1; i>=0; i--) {
+    console.log(str.charAt(i));  
+}
+
+var word = "JavaScript";
+for (let index = word.length; index>=0; index--) {
+    var element = word.charAt(index);
+    console.log(element);
+}
