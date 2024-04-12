@@ -47,24 +47,35 @@ var n7 = 40;
 var result = Boolean(n7);
 console.log(`n7 :${n7} type: ${typeof n7}, result: ${result} type: ${typeof result}`);
 
+// var result = +5;
+// console.log(typeof result); 
 var result = +5;
-console.log(typeof result);   //output will be string
+console.log(typeof (result + ""));  //output will be string
 
 // Arithmetic operation of undefined with number, boolean or null gives NaN
 
 var result;
 
-result = 4 + undefined; console.log(result); // NaN
+result = 4 + undefined;
+ console.log(result); // NaN
 
-result = 4 - undefined; console.log(result); // NaN
+result = 4 - undefined; 
+console.log(result); // NaN
 
-result = true + undefined; console.log(result); // NaN
+result = true + undefined; 
+console.log(result); // NaN
 
-result = null + undefined; console.log(result); // NaN
+result = null + undefined; 
+console.log(result); // NaN
 
-var result;
+var result1;
 
-result = Number('hello'); console.log(result); // NaN
+
+result1 = Number('hello'); 
+result2= Number('2');
+result3 =Number(true);
+console.log(result3);
+console.log(result2); // NaN
 
 result = Number(undefined); console.log(result); // NaN
 
